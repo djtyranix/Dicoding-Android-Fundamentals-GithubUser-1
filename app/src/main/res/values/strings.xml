@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Github User</string>
+    <string name="user_name_dummy">USER_NAME</string>
+    <string name="user_username_dummy">USER_USERNAME</string>
+    <string name="user_company_dummy">USER_COMPANY</string>
+    <string name="contact">EMAIL</string>
+    <string name="user_detail_dummy">USER_DETAILS</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ItemDetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/img_user_photo"
+            style="@style/ImageDetail" />
+
+        <TextView
+            android:id="@+id/tv_user_name"
+            style="@style/TextDetail.Title"
+            tools:text="@string/user_name_dummy" />
+
+        <TextView
+            android:id="@+id/tv_user_username"
+            style="@style/TextDetail.Subtitle"
+            tools:text="@string/user_username_dummy" />
+
+        <TextView
+            android:id="@+id/tv_user_company"
+            style="@style/TextDetail.Subtitle"
+            tools:text="@string/user_company_dummy" />
+
+        <TextView
+            android:id="@+id/tv_user_detail"
+            style="@style/TextDetail.Detail"
+            tools:text="@string/user_detail_dummy" />
+
+    </LinearLayout>
+</ScrollView>
